@@ -1,7 +1,7 @@
 {
-  "name": "backend-test-assignment",
+  "name": "contact-storage-service",
   "version": "1.0.0",
-  "description": "Back-end test assignment for smartercontact",
+  "description": "Contact storage service",
   "main": "lib/index.js",
   "scripts": {
     "prebuild": "rm -rf lib",
@@ -11,12 +11,7 @@
     "dev": "npx mikro-orm migration:up && nodemon src/index.ts --monitor",
     "watch-ts": "tsc -w"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/smartercontact/backend-test-assignment/issues"
-  },
-  "homepage": "https://gitlab.com/smartercontact/backend-test-assignment#readme",
+  "author": "magnafilix",
   "devDependencies": {
     "@tsconfig/node16": "^1.0.1",
     "eslint": "^7.32.0",
