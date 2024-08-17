@@ -11,7 +11,7 @@ Fastify server that allows you to upload and store contact information with phon
 ## Installation
 
 Create a free account on [veriphone.io](https://veriphone.io/) to obtain a veriphone api key.  
-Create `.env` file (in the root directory) and copy variables from `.env.example` to `.env`.  
+Create `.env` file (in the root directory) and copy variables from `.env.template` to `.env`.  
 
 Then run following commands:  
 
