@@ -1,10 +1,31 @@
-# backend-test-assignment
+# Contact storage service
 
-Use your knowledge about OOP, SOLID, DDD, and other best practices to make this code more readable and supportable.
+## Description
+Fastify server that allows you to upload and store contact information with phone number validity checks.
 
-## Requires
-  - Your code changes should be sent via Pull Request.
-  - Typescript should compile without any errors.
+## Tech stack
+- Fastify
+- TypeScript
+- MikroORM
 
-## Tips
-  - Create free account on [veriphone.io](https://veriphone.io/)
+## Installation
+
+Create a free account on [veriphone.io](https://veriphone.io/) to obtain a veriphone api key.  
+Create `.env` file (in the root directory) and copy variables from `.env.example` to `.env`.  
+
+Then run following commands:  
+
+```bash
+# install dependencies
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run dev
+
+# watch mode
+$ watch-ts
+```
